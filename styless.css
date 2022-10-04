@@ -1,0 +1,233 @@
+/* CSS styles */
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+ 
+.barreRech {
+  background-color: gray;
+  width: 400px;
+  padding: 10px;
+  opacity: 0.5;
+  border-radius: 10%;
+  margin-left: 780px;
+  margin-bottom: 10PX;
+  margin-top: 25px;
+
+}
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    width: 125px
+}
+audio {
+  margin-left: 120px;
+  margin-top: -50px;
+  position: absolute;
+}
+
+div.wrap {
+  width :700px;
+  float : right;
+}
+div.wrap2 {
+  display: grid;
+  grid-template-columns: auto auto ;
+  width: 1050px;
+  float: right;
+margin-top: -300px;
+}
+div.wrap3 {
+  display: grid;
+grid-template-columns: auto auto auto auto;
+width: 1050px;
+float: right;
+margin-top: -250px;
+}
+
+
+
+  .menu {
+    width: 120px;
+    background-color: rgb(44, 39, 39);
+  }
+  
+  .menu li {
+    background-color: #eee; 
+    color: black;
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+  }
+  
+  .menu li:hover {
+    background-color: #ccc; 
+  }
+  
+  .li.active {
+    background-color: #04AA6D; 
+    color: white;
+  }
+  .container {
+      transition: onclick, 4s;
+  }
+  .logo {
+    display: flex;
+    width: 90px;
+    margin-top: -100px;
+    padding: 2%;
+    height: 80px;
+  }
+.playl li {
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  width: 300px;
+}
+  .image {
+    position: absolute;
+    top: 15px ;left: 10px;
+    z-index: 5;
+    width: 77px; height: 77px;
+    border-radius: 60px;
+  }
+
+  .info {
+    background: #181818;
+    display: block;
+    width: 400px;
+    height: 110px;
+
+    padding-left: 100px;
+    border-radius: 60px;
+    color: white;
+  }
+  body {
+    font-family: Optima, sans-serif;
+    background-color: linen;
+  }
+  .voirplus {
+    float: right;
+    margin-right: 30px;
+margin-top: -150px;
+  }
+  .playlist {
+    width: 150px;
+    height :150px;
+
+    font-size: 30px;
+    text-align: center;
+  }
+  .playlist:hover {
+    transform: scale(1.5);
+    transition: transform 2s;
+  }
+h3 {
+
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  position: relative;
+  margin-top: -40px;
+  float: left;
+  height: 50px;
+  font-size: 30px;
+}
+.title {
+  text-align: center;
+  font-family: Optima, sans-serif;
+}
+
+.top10 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1000px;
+  float: right;
+  margin-left: 0px;
+}
+h4 {
+  font-style: normal;
+  font-size: 20px;
+}
+ .griid {
+    display: inline-grid;
+    grid-template-columns:repeat(1, 100px 4fr) 80px;
+  }
+  article {
+    margin-left: -320px;
+  }
+  .wrap4 {
+    margin-top: -300px;
+    width :700px;
+    float : right;
+  }
+  .wrap5 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 1050px;
+    float: right;
+    margin-top: -300px;
+  }
+  .genre {
+    display: flex;
+position: absolute;
+margin-top: -80px;
+margin-left: 190px;
+  }
+  input {
+    padding: 6px 10px;
+    text-align: center;
+    background: #d2b1b1;
+  }
+  .rech {
+    margin-left: -320px;
+  }
+  .disc {
+    padding: 10PX;
+text-align: center;
+background-color: linen;
+border-radius: 10px;
+margin-top: 100px;
+margin: 10px;
+  }
+  .pod-box {
+    display: inline-grid;
+    grid-template-columns:auto auto ;
+
+  }
+
+  .menu_acceuil {
+    text-decoration: none;
+list-style-type: none;
+padding: 10px;
+width: 190px;
+  }
+  footer {
+    margin: 600px;
+display: inline;
+text-align: center;
+  }
